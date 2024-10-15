@@ -1,0 +1,80 @@
+body {
+    background-color: blueviolet;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    width: 400px;
+    height: auto;
+    padding: 20px;
+    padding-bottom: 35px;
+    border-radius: 5px;
+}
+
+.logos {
+    display: flex;
+    flex-direction: row;
+    margin-top: 25px;
+}
+
+.scndrowlogos {
+    display: flex;
+    flex-direction: row;
+    margin-bottom: 15px;
+}
+
+img {
+    width: 60px;
+    height: auto;
+    margin: 0 40px;
+}
+
+hr {
+    padding: 0 50%;
+    color: rgba(0, 0, 0, 0.267);
+}
+
+h1, p {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    margin-left: -300px;
+}
+
+p {
+    text-align: center;
+    font-size: 13px;
+    color: rgba(0, 0, 0, 0.462);
+}
+
+button {
+    border: none;
+    border-radius: 5px;
+    width: 350px;
+    height: 60px;
+    padding: 10px;
+    background-color: blue;
+    color: white;
+    margin-top: 15px;
+}
+
+img:hover {
+    width: 80px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+p:hover {
+    font-size: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    color: black;
+}
